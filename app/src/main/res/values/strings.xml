@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">AndroidTrain</string>
-    <string name="button1Label">button 1</string>
-    <string name="button2Label">button 2</string>
-    <string name="button3Label">button 3</string>
+    <string name="app_name">Android practice</string>
+    <string name="button_label_prefix">button </string>
 </resources>

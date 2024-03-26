@@ -1,64 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingHorizontal="30dp"
-    android:paddingTop="20dp">
-
-    <Button
-        android:id="@+id/button1"
+    android:layout_height="match_parent">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/gray"
-        android:text="@string/button1Label" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/gray"
-        android:text="@string/button2Label" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="@color/gray"
-        android:text="@string/button3Label" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:gravity="bottom"
-        >
-        <View
-            android:layout_width="0dp"
-            android:layout_height="80dp"
-            android:layout_weight="2"
-            android:background="@color/gray"/>
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="2"
-            android:background="@color/gray"/>
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-        <View
-            android:layout_width="0dp"
-            android:layout_height="60dp"
-            android:layout_weight="2"
-            android:background="@color/gray"/>
-    </LinearLayout>
-</LinearLayout>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/button_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="30dp"
+            android:paddingTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
