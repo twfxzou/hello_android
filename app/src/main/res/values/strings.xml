@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">AndroidTrain</string>
+    <string name="button1Label">button 1</string>
+    <string name="button2Label">button 2</string>
+    <string name="button3Label">button 3</string>
 </resources>

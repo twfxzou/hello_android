@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">安卓培训</string>
+    <string name="button1Label">按钮 1</string>
+    <string name="button2Label">按钮 2</string>
+    <string name="button3Label">按钮 3</string>
+</resources>
