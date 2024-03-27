@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Android practice</string>
-    <string name="button_label_prefix">button </string>
+    <string name="button_label">button %1$d</string>
 </resources>
